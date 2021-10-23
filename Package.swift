@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "BEMCheckBox",
     platforms: [
-       .iOS(.v8)
+        .iOS(.v10)
     ],
     products: [
         .library(name: "BEMCheckBox", targets: ["BEMCheckBox"])
